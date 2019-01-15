@@ -4,7 +4,7 @@
 <b-container>
     <b-row align-h="center">
         <b-col cols="8">
-            <b-card title="Inicio de sesión" class="my-3">
+            <b-card title="Iniciar sesión" class="my-3">
 
                 @if ($errors->any())
                 <b-alert show variant="danger">

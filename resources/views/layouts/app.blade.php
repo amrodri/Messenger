@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html class="h-100">
 <html lang="{{ app()->getLocale() }}">
 <head>
     <meta charset="utf-8">
@@ -13,11 +13,11 @@
     <!-- Styles -->
 
 </head>
-<body>
+<body class="h-100">
     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
         {{ csrf_field() }}
     </form>
-    <div id="app">
+    <div id="app" class="h-100">
         <b-navbar toggleable type="dark" variant="primary">
                 <b-navbar-toggle target="nav_text_collapse"></b-navbar-toggle>
                 <b-navbar-brand href="{{ url('/') }}">
