@@ -48,7 +48,7 @@
                 });
             },
             selectConversation(conversation) {
-                console.log(conversation);
+                this.$emit('conversationSelected', conversation);
             }
         }
     }
